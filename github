@@ -1,0 +1,6 @@
+git init # Inicia o projeto
+git status # Verifica o status
+git add . # Adiciona arquivos
+git commit -m 'mensagem' # Commita
+git push origin master # Sobe na nuvem
+git pull # Atualiza repositorio local com a nuvem
