@@ -1,0 +1,10 @@
+peixe
+lua
+casa
+gato
+cachorro
+folha
+lata
+rolha
+terra
+polvo

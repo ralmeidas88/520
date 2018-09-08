@@ -2,15 +2,24 @@
 #Faça um programa que leia duas notas e calcule a media - quantas notas forem necessárias
 # - notas maiores que 7 - aprovado. 
 #entre 3 e 7 recuperacao, menor ou igual a 3 reprovado
-
-qtd = int (input('Quantas notas deseja inserir? '))
+try:
+    qtd = int (input('Quantas notas deseja inserir? '))
+except Exception as e:
+    print(e)
+    print('Digite somente numeros')
+    exit()
 
 soma = 0
 
 for x in range(qtd):
-    nota = int(input('Digite nota '))
+    try:
+        nota = int(input('Digite nota '))
+    except Exception:
+        print ('digite apenas numeros')
+        exit()
     if nota > 10:
         print ('nota invalida')
+        qtd -= 1
         continue
     soma += nota
     #soma incrementa nota que é digitada
