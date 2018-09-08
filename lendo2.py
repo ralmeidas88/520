@@ -8,4 +8,5 @@
 #adicionando lista no arquivo 
 nomes = ['yasmin', 'rafael', 'jessica']
 with open('nomes.txt', 'a') as arquivo:
+    arquivo.seek(0)
     arquivo.writelines(nomes)

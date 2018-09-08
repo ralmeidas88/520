@@ -1,0 +1,11 @@
+1 -peixe
+2 -lua
+3 -casa
+4 -gato
+5 -cachorro
+6 -folha
+7 -lata
+8 -rolha
+9 -terra
+10 -polvo
+11 -yasminrafaeljessica
